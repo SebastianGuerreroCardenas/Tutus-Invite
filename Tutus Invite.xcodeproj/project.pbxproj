@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A22944D86062EEEC76775B6 /* Pods_Tutus_InviteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE6F223C91CAFB6C479E3A /* Pods_Tutus_InviteUITests.framework */; };
+		2690F267C474FED9B95F8BB3 /* Pods_Tutus_InviteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE4C895813A82F33B18D2E1 /* Pods_Tutus_InviteTests.framework */; };
 		B93D65E81DF0E82700210219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D65E71DF0E82700210219 /* AppDelegate.swift */; };
 		B93D65EA1DF0E82700210219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D65E91DF0E82700210219 /* ViewController.swift */; };
 		B93D65ED1DF0E82700210219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93D65EB1DF0E82700210219 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B93D65F21DF0E82700210219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93D65F01DF0E82700210219 /* LaunchScreen.storyboard */; };
 		B93D65FD1DF0E82800210219 /* Tutus_InviteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D65FC1DF0E82800210219 /* Tutus_InviteTests.swift */; };
 		B93D66081DF0E82800210219 /* Tutus_InviteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D66071DF0E82800210219 /* Tutus_InviteUITests.swift */; };
+		E09C6EB0DB146726BD7D7F8D /* Pods_Tutus_Invite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498EE244F079763DF1D151DB /* Pods_Tutus_Invite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A306E8607648659A4FBB43D /* Pods-Tutus Invite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus Invite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus Invite/Pods-Tutus Invite.debug.xcconfig"; sourceTree = "<group>"; };
+		3114875A9360CA386CE7F203 /* Pods-Tutus InviteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus InviteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus InviteUITests/Pods-Tutus InviteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3711247856E68AE01C67B7BB /* Pods-Tutus InviteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus InviteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus InviteTests/Pods-Tutus InviteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		498EE244F079763DF1D151DB /* Pods_Tutus_Invite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutus_Invite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C05D6A9CC4213B9AC37A0B /* Pods-Tutus Invite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus Invite.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus Invite/Pods-Tutus Invite.release.xcconfig"; sourceTree = "<group>"; };
+		8CE4C895813A82F33B18D2E1 /* Pods_Tutus_InviteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutus_InviteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93D65E41DF0E82700210219 /* Tutus Invite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutus Invite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93D65E71DF0E82700210219 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B93D65E91DF0E82700210219 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,10 @@
 		B93D66031DF0E82800210219 /* Tutus InviteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutus InviteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93D66071DF0E82800210219 /* Tutus_InviteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutus_InviteUITests.swift; sourceTree = "<group>"; };
 		B93D66091DF0E82800210219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93D66151DF0E93800210219 /* Tutus Invite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tutus Invite.entitlements"; sourceTree = "<group>"; };
+		BD65FAEC5C88B862E872DED3 /* Pods-Tutus InviteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus InviteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus InviteTests/Pods-Tutus InviteTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6AA7FAA3CA086755320F357 /* Pods-Tutus InviteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus InviteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus InviteUITests/Pods-Tutus InviteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFFE6F223C91CAFB6C479E3A /* Pods_Tutus_InviteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutus_InviteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09C6EB0DB146726BD7D7F8D /* Pods_Tutus_Invite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2690F267C474FED9B95F8BB3 /* Pods_Tutus_InviteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A22944D86062EEEC76775B6 /* Pods_Tutus_InviteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09C7319960E0ECC2C70E6267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498EE244F079763DF1D151DB /* Pods_Tutus_Invite.framework */,
+				8CE4C895813A82F33B18D2E1 /* Pods_Tutus_InviteTests.framework */,
+				EFFE6F223C91CAFB6C479E3A /* Pods_Tutus_InviteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6144747A46FB395774DD8B08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A306E8607648659A4FBB43D /* Pods-Tutus Invite.debug.xcconfig */,
+				88C05D6A9CC4213B9AC37A0B /* Pods-Tutus Invite.release.xcconfig */,
+				3711247856E68AE01C67B7BB /* Pods-Tutus InviteTests.debug.xcconfig */,
+				BD65FAEC5C88B862E872DED3 /* Pods-Tutus InviteTests.release.xcconfig */,
+				C6AA7FAA3CA086755320F357 /* Pods-Tutus InviteUITests.debug.xcconfig */,
+				3114875A9360CA386CE7F203 /* Pods-Tutus InviteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B93D65DB1DF0E82700210219 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				B93D65FB1DF0E82800210219 /* Tutus InviteTests */,
 				B93D66061DF0E82800210219 /* Tutus InviteUITests */,
 				B93D65E51DF0E82700210219 /* Products */,
+				6144747A46FB395774DD8B08 /* Pods */,
+				09C7319960E0ECC2C70E6267 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +138,7 @@
 		B93D65E61DF0E82700210219 /* Tutus Invite */ = {
 			isa = PBXGroup;
 			children = (
+				B93D66151DF0E93800210219 /* Tutus Invite.entitlements */,
 				B93D65E71DF0E82700210219 /* AppDelegate.swift */,
 				B93D65E91DF0E82700210219 /* ViewController.swift */,
 				B93D65EB1DF0E82700210219 /* Main.storyboard */,
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B93D660C1DF0E82800210219 /* Build configuration list for PBXNativeTarget "Tutus Invite" */;
 			buildPhases = (
+				38E1E899DDA68797DBA73D2A /* [CP] Check Pods Manifest.lock */,
 				B93D65E01DF0E82700210219 /* Sources */,
 				B93D65E11DF0E82700210219 /* Frameworks */,
 				B93D65E21DF0E82700210219 /* Resources */,
+				39AE2D5C04AAE40CAFDB3BE3 /* [CP] Embed Pods Frameworks */,
+				AE65755B5597F2C13EF8845C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B93D660F1DF0E82800210219 /* Build configuration list for PBXNativeTarget "Tutus InviteTests" */;
 			buildPhases = (
+				015A906FB076160FE537CEDD /* [CP] Check Pods Manifest.lock */,
 				B93D65F41DF0E82800210219 /* Sources */,
 				B93D65F51DF0E82800210219 /* Frameworks */,
 				B93D65F61DF0E82800210219 /* Resources */,
+				8DFE271A1D855910A3ABAC86 /* [CP] Embed Pods Frameworks */,
+				69DB1008468FCC7E72742E1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B93D66121DF0E82800210219 /* Build configuration list for PBXNativeTarget "Tutus InviteUITests" */;
 			buildPhases = (
+				D41E36B13EC0C923C784299F /* [CP] Check Pods Manifest.lock */,
 				B93D65FF1DF0E82800210219 /* Sources */,
 				B93D66001DF0E82800210219 /* Frameworks */,
 				B93D66011DF0E82800210219 /* Resources */,
+				FD81300232D42FF709F4DD33 /* [CP] Embed Pods Frameworks */,
+				4451A8563C6668D6862EBA55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +246,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 4DWM5E7J8T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					B93D65F71DF0E82800210219 = {
 						CreatedOnToolsVersion = 8.1;
@@ -256,6 +312,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015A906FB076160FE537CEDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38E1E899DDA68797DBA73D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39AE2D5C04AAE40CAFDB3BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutus Invite/Pods-Tutus Invite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4451A8563C6668D6862EBA55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutus InviteUITests/Pods-Tutus InviteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69DB1008468FCC7E72742E1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutus InviteTests/Pods-Tutus InviteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFE271A1D855910A3ABAC86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutus InviteTests/Pods-Tutus InviteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE65755B5597F2C13EF8845C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutus Invite/Pods-Tutus Invite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41E36B13EC0C923C784299F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD81300232D42FF709F4DD33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutus InviteUITests/Pods-Tutus InviteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B93D65E01DF0E82700210219 /* Sources */ = {
@@ -411,8 +605,10 @@
 		};
 		B93D660D1DF0E82800210219 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A306E8607648659A4FBB43D /* Pods-Tutus Invite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tutus Invite/Tutus Invite.entitlements";
 				DEVELOPMENT_TEAM = 4DWM5E7J8T;
 				INFOPLIST_FILE = "Tutus Invite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -424,8 +620,10 @@
 		};
 		B93D660E1DF0E82800210219 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C05D6A9CC4213B9AC37A0B /* Pods-Tutus Invite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tutus Invite/Tutus Invite.entitlements";
 				DEVELOPMENT_TEAM = 4DWM5E7J8T;
 				INFOPLIST_FILE = "Tutus Invite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +635,7 @@
 		};
 		B93D66101DF0E82800210219 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3711247856E68AE01C67B7BB /* Pods-Tutus InviteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +651,7 @@
 		};
 		B93D66111DF0E82800210219 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD65FAEC5C88B862E872DED3 /* Pods-Tutus InviteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +667,7 @@
 		};
 		B93D66131DF0E82800210219 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AA7FAA3CA086755320F357 /* Pods-Tutus InviteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4DWM5E7J8T;
@@ -481,6 +682,7 @@
 		};
 		B93D66141DF0E82800210219 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3114875A9360CA386CE7F203 /* Pods-Tutus InviteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4DWM5E7J8T;
@@ -512,6 +714,7 @@
 				B93D660E1DF0E82800210219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B93D660F1DF0E82800210219 /* Build configuration list for PBXNativeTarget "Tutus InviteTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +723,7 @@
 				B93D66111DF0E82800210219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B93D66121DF0E82800210219 /* Build configuration list for PBXNativeTarget "Tutus InviteUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +732,7 @@
 				B93D66141DF0E82800210219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

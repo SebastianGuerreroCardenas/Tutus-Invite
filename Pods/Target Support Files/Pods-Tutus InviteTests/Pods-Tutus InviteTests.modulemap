@@ -1,0 +1,6 @@
+framework module Pods_Tutus_InviteTests {
+  umbrella header "Pods-Tutus InviteTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
