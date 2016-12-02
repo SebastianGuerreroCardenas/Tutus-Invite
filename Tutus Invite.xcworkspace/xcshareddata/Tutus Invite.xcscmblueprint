@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12529A6587F1BE49784569A1BB9D4CC6F032BD0A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3311BF88FC1E95FA0A046BF9C8D6D29CA77C33E9" : 9223372036854775807,
+    "12529A6587F1BE49784569A1BB9D4CC6F032BD0A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "623A655C-1252-4E9A-B2F2-A0005969E9A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3311BF88FC1E95FA0A046BF9C8D6D29CA77C33E9" : "Tutus\/",
+    "12529A6587F1BE49784569A1BB9D4CC6F032BD0A" : "Tutus%20Invite\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tutus Invite",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tutus Invite.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SebastianGuerreroCardenas\/Tutus-Invite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12529A6587F1BE49784569A1BB9D4CC6F032BD0A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SebastianGuerreroCardenas\/Tutus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3311BF88FC1E95FA0A046BF9C8D6D29CA77C33E9"
+    }
+  ]
+}

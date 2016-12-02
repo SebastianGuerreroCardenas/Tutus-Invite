@@ -16,6 +16,13 @@
 		B93D65F21DF0E82700210219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93D65F01DF0E82700210219 /* LaunchScreen.storyboard */; };
 		B93D65FD1DF0E82800210219 /* Tutus_InviteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D65FC1DF0E82800210219 /* Tutus_InviteTests.swift */; };
 		B93D66081DF0E82800210219 /* Tutus_InviteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D66071DF0E82800210219 /* Tutus_InviteUITests.swift */; };
+		B93D661D1DF0F2FE00210219 /* UserClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D66171DF0F2FE00210219 /* UserClient.swift */; };
+		B93D661E1DF0F2FE00210219 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D66181DF0F2FE00210219 /* BaseViewController.swift */; };
+		B93D661F1DF0F2FE00210219 /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D66191DF0F2FE00210219 /* LoginClient.swift */; };
+		B93D66201DF0F2FE00210219 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D661A1DF0F2FE00210219 /* LoginViewController.swift */; };
+		B93D66211DF0F2FE00210219 /* LoginParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D661B1DF0F2FE00210219 /* LoginParser.swift */; };
+		B93D66221DF0F2FE00210219 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93D661C1DF0F2FE00210219 /* Login.storyboard */; };
+		B93D66241DF0F35400210219 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D66231DF0F35400210219 /* MenuViewController.swift */; };
 		E09C6EB0DB146726BD7D7F8D /* Pods_Tutus_Invite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498EE244F079763DF1D151DB /* Pods_Tutus_Invite.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +64,13 @@
 		B93D66071DF0E82800210219 /* Tutus_InviteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutus_InviteUITests.swift; sourceTree = "<group>"; };
 		B93D66091DF0E82800210219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B93D66151DF0E93800210219 /* Tutus Invite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tutus Invite.entitlements"; sourceTree = "<group>"; };
+		B93D66171DF0F2FE00210219 /* UserClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserClient.swift; path = ../../Tutus/Tutus/UserClient.swift; sourceTree = "<group>"; };
+		B93D66181DF0F2FE00210219 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../Tutus/Tutus/BaseViewController.swift; sourceTree = "<group>"; };
+		B93D66191DF0F2FE00210219 /* LoginClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginClient.swift; path = ../../Tutus/Tutus/LoginClient.swift; sourceTree = "<group>"; };
+		B93D661A1DF0F2FE00210219 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../Tutus/Tutus/LoginViewController.swift; sourceTree = "<group>"; };
+		B93D661B1DF0F2FE00210219 /* LoginParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginParser.swift; path = ../../Tutus/Tutus/LoginParser.swift; sourceTree = "<group>"; };
+		B93D661C1DF0F2FE00210219 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = ../../Tutus/Tutus/Login.storyboard; sourceTree = "<group>"; };
+		B93D66231DF0F35400210219 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../../Tutus/Tutus/MenuViewController.swift; sourceTree = "<group>"; };
 		BD65FAEC5C88B862E872DED3 /* Pods-Tutus InviteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus InviteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus InviteTests/Pods-Tutus InviteTests.release.xcconfig"; sourceTree = "<group>"; };
 		C6AA7FAA3CA086755320F357 /* Pods-Tutus InviteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutus InviteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutus InviteUITests/Pods-Tutus InviteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFFE6F223C91CAFB6C479E3A /* Pods_Tutus_InviteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutus_InviteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,10 +152,10 @@
 		B93D65E61DF0E82700210219 /* Tutus Invite */ = {
 			isa = PBXGroup;
 			children = (
+				B93D66161DF0F19500210219 /* Main StoryBoard */,
+				B93D66251DF0F38400210219 /* Login */,
 				B93D66151DF0E93800210219 /* Tutus Invite.entitlements */,
 				B93D65E71DF0E82700210219 /* AppDelegate.swift */,
-				B93D65E91DF0E82700210219 /* ViewController.swift */,
-				B93D65EB1DF0E82700210219 /* Main.storyboard */,
 				B93D65EE1DF0E82700210219 /* Assets.xcassets */,
 				B93D65F01DF0E82700210219 /* LaunchScreen.storyboard */,
 				B93D65F31DF0E82700210219 /* Info.plist */,
@@ -165,6 +179,29 @@
 				B93D66091DF0E82800210219 /* Info.plist */,
 			);
 			path = "Tutus InviteUITests";
+			sourceTree = "<group>";
+		};
+		B93D66161DF0F19500210219 /* Main StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B93D65EB1DF0E82700210219 /* Main.storyboard */,
+				B93D65E91DF0E82700210219 /* ViewController.swift */,
+				B93D66231DF0F35400210219 /* MenuViewController.swift */,
+				B93D66181DF0F2FE00210219 /* BaseViewController.swift */,
+			);
+			name = "Main StoryBoard";
+			sourceTree = "<group>";
+		};
+		B93D66251DF0F38400210219 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B93D661C1DF0F2FE00210219 /* Login.storyboard */,
+				B93D661B1DF0F2FE00210219 /* LoginParser.swift */,
+				B93D661A1DF0F2FE00210219 /* LoginViewController.swift */,
+				B93D66171DF0F2FE00210219 /* UserClient.swift */,
+				B93D66191DF0F2FE00210219 /* LoginClient.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93D66221DF0F2FE00210219 /* Login.storyboard in Resources */,
 				B93D65F21DF0E82700210219 /* LaunchScreen.storyboard in Resources */,
 				B93D65EF1DF0E82700210219 /* Assets.xcassets in Resources */,
 				B93D65ED1DF0E82700210219 /* Main.storyboard in Resources */,
@@ -456,8 +494,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93D66201DF0F2FE00210219 /* LoginViewController.swift in Sources */,
 				B93D65EA1DF0E82700210219 /* ViewController.swift in Sources */,
+				B93D661F1DF0F2FE00210219 /* LoginClient.swift in Sources */,
+				B93D661E1DF0F2FE00210219 /* BaseViewController.swift in Sources */,
+				B93D66211DF0F2FE00210219 /* LoginParser.swift in Sources */,
+				B93D661D1DF0F2FE00210219 /* UserClient.swift in Sources */,
 				B93D65E81DF0E82700210219 /* AppDelegate.swift in Sources */,
+				B93D66241DF0F35400210219 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
